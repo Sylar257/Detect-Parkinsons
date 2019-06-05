@@ -8,11 +8,15 @@ Patients with Parkinson's disease have nervous system issues. Symptoms include m
 
 Incentive: While Parkinson's cannot be cured, **early detection along with proper medication can significantly improve symptoms and quality of life**, making it an important for the medical field.
 
+## Acknowledgement:
+
+*A 2017 study by Zham et al. concluded that it is possible to detect Parkinson's by asking the patient to draw a spiral while tracking the speed of pen movement and pressure.* 
+
+Many thanks to Adrian Rosebrock from [PyImage](https://www.pyimagesearch.com/) for OpenCV tutorial
+
 ## Drawing spirals and waves to detect Parkinson's disease
 
 ![img](https://www.pyimagesearch.com/wp-content/uploads/2019/04/detect_parkinsons_opencv_drawing.jpg)
-
-*A 2017 study by Zham et al. concluded that it is possible to detect Parkinson's by asking the patient to draw a spiral while tracking the speed of pen movement and pressure.* 
 
 The important conclusion is that, for Parkinson's patients: 
 
@@ -249,7 +253,7 @@ from hyperopt.pyll import scope
 from sklearn.model_selection import cross_val_score, KFold
 ```
 
-The *<span style="color:blue">`hyperopt`</span>* is used to do hyperparameter tuning. It's Bayesian optimizer that features ***Tree-based Parzen Estimator** for parameter proposition. 
+The *<span style="color:blue">`hyperopt`</span>* is used to do hyperparameter tuning. It's Bayesian optimizer that features **Tree-based Parzen Estimator** for parameter proposition. Typically, when we have a large parameter space to search, Bayesian-based method would perform more efficiently than grid search or random search.
 
 ### Tuning for RF
 
