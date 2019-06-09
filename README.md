@@ -4,7 +4,7 @@
 
 ![img](https://www.pyimagesearch.com/wp-content/uploads/2019/04/detect_parkinsons_opencv_patient.jpg)
 
-Patients with Parkinson's disease have nervous system issues. Symptoms include movement issues such as tremors and muscle rigidity. Graciously, Joao Paulo Folador, shared his dataset consisting of spiral and wave drawings from Parkinson's patients and healthy participants. Traditional CV approach is taken to use the HOG image descriptor + Random Forest classifier to perform classification.
+Patients with Parkinson's disease have nervous system issues. Symptoms include movement issues such as tremors and muscle rigidity. Graciously, Joao Paulo Folador, shared his dataset consisting of spiral and wave drawings from Parkinson's patients and healthy participants. Traditional CV approach is taken to use the HOG image descriptor + Random Forest classifier(and also XGBoost) to perform classification. In the second phase, Beysian-based parameter optimizer is applied to optimize the prediction result.
 
 Incentive: While Parkinson's cannot be cured, **early detection along with proper medication can significantly improve symptoms and quality of life**, making it an important for the medical field.
 
